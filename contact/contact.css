@@ -104,7 +104,7 @@ transition: width 0.3s, box-shadow 0.3s,border 0.5s;
 }
 input::placeholder{color: #717171; font-size: 18px;padding-left: 0px; }
 
-#clet5 textarea{ width: 95%; height: 150px;    border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); font-size: 20px; color: #717171;font-family: serif;
+#clet5 textarea{ width: 95%; height: 150px;    border-style: none; border-radius: 3px; background-repeat: no-repeat; background-position: 3px ; box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); font-size: 20px; color: #717171;font-family: serif; font-family: 'Roboto', sans-serif;
 transition: width 0.3s, border 0.5s;padding-top: 10px;
 }
 input::placeholder{color: #717171; font-size: 16px;}
