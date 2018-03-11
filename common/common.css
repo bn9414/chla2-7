@@ -179,7 +179,7 @@ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, F
    .hover_track{width: 140px; height:  40px; position: absolute;left: -10px;top: 20px; }
     .pmenu{animation-name: pmenuop;animation-duration: 1s;animation-fill-mode: forwards;}
  .dmn3:hover .pmenu{display: block}
-    .pmenu a:hover {border-bottom: 1px solid #ed402b;color: #F39237 }
+    .pmenu a:hover {border-bottom: 1px solid #CA191F;color: #F39237 }
     @keyframes pmenuop {
         from{opacity: 0;}
         to{opacity: 1;}
