@@ -33,11 +33,11 @@ function imageop(n){
      mainimg[5].style.display="none";
      mainimg[6].style.display="none";
      mainimg[7].style.display="none";
+     mainimg[8].style.display="none";
+     mainimg[9].style.display="none";
     
     
     
-        mainimg[8].style.display="none";
-
 
     
     subimg[0].style.border="1px solid #ffffff";
@@ -49,6 +49,7 @@ function imageop(n){
     subimg[6].style.border="1px solid #ffffff";
     subimg[7].style.border="1px solid #ffffff";
         subimg[8].style.border="1px solid #ffffff";
+ subimg[9].style.border="1px solid #ffffff";    
 
     
     
@@ -72,6 +73,7 @@ subimg[6].addEventListener('click',function(){imageop(6);},false);
 subimg[7].addEventListener('click',function(){imageop(7);},false);
 
 subimg[8].addEventListener('click',function(){imageop(8);},false);
+subimg[9].addEventListener('click',function(){imageop(9);},false);
 
 
 
@@ -107,6 +109,13 @@ function pmenu(n){
     listm1[13].style.backgroundColor="#ffffff";
     listm1[14].style.backgroundColor="#ffffff";
     listm1[15].style.backgroundColor="#ffffff";
+    
+             listm1[16].style.backgroundColor="#ffffff";
+    listm1[17].style.backgroundColor="#ffffff";
+    listm1[18].style.backgroundColor="#ffffff";
+    listm1[19].style.backgroundColor="#ffffff";
+    
+    
 
     
        
@@ -126,6 +135,11 @@ function pmenu(n){
     menup[13].style.color="#454545";
     menup[14].style.color="#454545";
     menup[15].style.color="#454545";
+    
+            menup[16].style.color="#454545";
+    menup[17].style.color="#454545";
+    menup[18].style.color="#454545";
+    menup[19].style.color="#454545";
     
 
     
@@ -149,6 +163,11 @@ function pmenu(n){
      det1[13].style.display="none";
      det1[14].style.display="none";
      det1[15].style.display="none";
+    
+        det1[16].style.display="none";
+     det1[17].style.display="none";
+     det1[18].style.display="none";
+     det1[19].style.display="none";    
     
            
 
@@ -180,6 +199,11 @@ listm1[13].addEventListener('click',function(){pmenu(13);},false);
 listm1[14].addEventListener('click',function(){pmenu(14);},false);
 listm1[15].addEventListener('click',function(){pmenu(15);},false);
 
+listm1[16].addEventListener('click',function(){pmenu(16);},false);
+listm1[17].addEventListener('click',function(){pmenu(17);},false);
+listm1[18].addEventListener('click',function(){pmenu(18);},false);
+listm1[19].addEventListener('click',function(){pmenu(19);},false);
+
 
 var lmt= document.getElementsByClassName('lmt');
 var lmtd= document.getElementsByClassName('lmtd');
@@ -192,6 +216,7 @@ function popen(n){
        lmt[1].style.display="none";
       lmt[2].style.display="none";
         lmt[3].style.display="none";
+         lmt[4].style.display="none";
  
     
     lmtd[n].style.display="block";
@@ -205,6 +230,7 @@ function pclose(n){
        lmt[1].style.display="flex";
         lmt[2].style.display="flex";
     lmt[3].style.display="flex"; 
+    lmt[4].style.display="flex"; 
 
     
 }
@@ -218,10 +244,14 @@ imageop(6);pmenu(8);},false);
 lmt[3].addEventListener('click',function(){popen(3);;
 imageop(8);pmenu(12);},false);
 
+lmt[4].addEventListener('click',function(){popen(4);;
+imageop(9);pmenu(16);},false);
+
 
 
 closex[0].addEventListener('click',function(){pclose(0);},false);
 closex[1].addEventListener('click',function(){pclose(1);},false);
 closex[2].addEventListener('click',function(){pclose(2);},false);
 closex[3].addEventListener('click',function(){pclose(3);},false);
+closex[4].addEventListener('click',function(){pclose(4);},false);
 
