@@ -26,9 +26,13 @@ var subimg= document.getElementsByClassName('subimg');
 
 function imageop(n){
     mainimg[0].style.display="none";
-     
+     mainimg[1].style.display="none";
+     mainimg[2].style.display="none";
+
     
     subimg[0].style.border="1px solid #ffffff";
+    subimg[1].style.border="1px solid #ffffff";
+    subimg[2].style.border="1px solid #ffffff";
     
     
     subimg[n].style.border="1px solid #b5b5b5";
@@ -42,6 +46,8 @@ function imageop(n){
 
 
 subimg[0].addEventListener('click',function(){imageop(0);},false);
+subimg[1].addEventListener('click',function(){imageop(1);},false);
+subimg[2].addEventListener('click',function(){imageop(2);},false);
 
 
 
