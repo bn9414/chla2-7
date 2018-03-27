@@ -1,3 +1,5 @@
+
+
 .lmt,.closex,.subimg{cursor: pointer;}
 /* s: header image*/
 .prod_hd{width: 100%; overflow: hidden;position: relative}
@@ -178,3 +180,4 @@ table, th, td {
 }
 
 /* e:prod detail*/
+.lmhide{display: none;}

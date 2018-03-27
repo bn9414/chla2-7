@@ -232,11 +232,11 @@ function pclose(n){
     
    lmtd[n].style.display="none";
     lmt[0].style.display="flex";
-       lmt[1].style.display="flex";
+     /*  lmt[1].style.display="flex";
         lmt[2].style.display="flex";
     lmt[3].style.display="flex"; 
     lmt[4].style.display="flex"; 
-  
+  */
 
     
 }

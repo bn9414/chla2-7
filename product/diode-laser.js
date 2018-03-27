@@ -35,6 +35,10 @@ function imageop(n){
      mainimg[7].style.display="none";
      mainimg[8].style.display="none";
      mainimg[9].style.display="none";
+        mainimg[10].style.display="none";
+     mainimg[11].style.display="none";
+     mainimg[12].style.display="none";
+     mainimg[13].style.display="none";
     
     
     
@@ -49,7 +53,12 @@ function imageop(n){
     subimg[6].style.border="1px solid #ffffff";
     subimg[7].style.border="1px solid #ffffff";
         subimg[8].style.border="1px solid #ffffff";
- subimg[9].style.border="1px solid #ffffff";    
+ subimg[9].style.border="1px solid #ffffff";  
+    
+        subimg[10].style.border="1px solid #ffffff";
+    subimg[11].style.border="1px solid #ffffff";
+        subimg[12].style.border="1px solid #ffffff";
+ subimg[13].style.border="1px solid #ffffff";  
 
     
     
@@ -74,6 +83,12 @@ subimg[7].addEventListener('click',function(){imageop(7);},false);
 
 subimg[8].addEventListener('click',function(){imageop(8);},false);
 subimg[9].addEventListener('click',function(){imageop(9);},false);
+
+subimg[10].addEventListener('click',function(){imageop(10);},false);
+subimg[11].addEventListener('click',function(){imageop(11);},false);
+
+subimg[12].addEventListener('click',function(){imageop(12);},false);
+subimg[13].addEventListener('click',function(){imageop(13);},false);
 
 
 
@@ -114,6 +129,8 @@ function pmenu(n){
     listm1[17].style.backgroundColor="#ffffff";
     listm1[18].style.backgroundColor="#ffffff";
     listm1[19].style.backgroundColor="#ffffff";
+    
+    
     
     
 
@@ -242,10 +259,11 @@ imageop(4);pmenu(4);},false);
 lmt[2].addEventListener('click',function(){popen(2);;
 imageop(6);pmenu(8);},false);
 lmt[3].addEventListener('click',function(){popen(3);;
-imageop(8);pmenu(12);},false);
+imageop(10);pmenu(12);},false);
 
 lmt[4].addEventListener('click',function(){popen(4);;
-imageop(9);pmenu(16);},false);
+imageop(11);pmenu(16);},false);
+
 
 
 

@@ -91,6 +91,10 @@ function pmenu(n){
     listm1[7].style.backgroundColor="#ffffff";
 
 
+         listm1[8].style.backgroundColor="#ffffff";
+    listm1[9].style.backgroundColor="#ffffff";
+    listm1[10].style.backgroundColor="#ffffff";
+    listm1[11].style.backgroundColor="#ffffff";
     
        
     menup[0].style.color="#454545";
@@ -102,7 +106,10 @@ function pmenu(n){
     menup[6].style.color="#454545";
     menup[7].style.color="#454545";
   
-
+    menup[8].style.color="#454545";
+    menup[9].style.color="#454545";
+    menup[10].style.color="#454545";
+    menup[11].style.color="#454545";
     
     
     
@@ -115,7 +122,11 @@ function pmenu(n){
      det1[5].style.display="none";
      det1[6].style.display="none";
      det1[7].style.display="none";
-
+det1[8].style.display="none";
+     det1[9].style.display="none";
+     det1[10].style.display="none";
+     det1[10].style.display="none";
+         det1[11].style.display="none";
      
     
      det1[n].style.display="block";
@@ -136,7 +147,10 @@ listm1[5].addEventListener('click',function(){pmenu(5);},false);
 listm1[6].addEventListener('click',function(){pmenu(6);},false);
 listm1[7].addEventListener('click',function(){pmenu(7);},false);
 
-
+listm1[8].addEventListener('click',function(){pmenu(8);},false);
+listm1[9].addEventListener('click',function(){pmenu(9);},false);
+listm1[10].addEventListener('click',function(){pmenu(10);},false);
+listm1[11].addEventListener('click',function(){pmenu(11);},false);
 
 var lmt= document.getElementsByClassName('lmt');
 var lmtd= document.getElementsByClassName('lmtd');
@@ -147,6 +161,7 @@ function popen(n){
     
     lmt[0].style.display="none";
        lmt[1].style.display="none";
+       lmt[2].style.display="none";
 
 
     
@@ -159,6 +174,7 @@ function pclose(n){
     lmtd[n].style.display="none";
     lmt[0].style.display="flex";
        lmt[1].style.display="flex";
+       lmt[2].style.display="flex";
 
 
     
@@ -169,9 +185,12 @@ lmt[0].addEventListener('click',function(){popen(0);imageop(0);pmenu(0);
 lmt[1].addEventListener('click',function(){popen(1);;
 imageop(4);pmenu(4);},false);
 
+lmt[2].addEventListener('click',function(){popen(2);;
+imageop(7);pmenu(8);},false);
+
 
 
 
 closex[0].addEventListener('click',function(){pclose(0);},false);
 closex[1].addEventListener('click',function(){pclose(1);},false);
-
+closex[2].addEventListener('click',function(){pclose(2);},false);

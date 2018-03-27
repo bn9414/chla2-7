@@ -39,6 +39,7 @@ function imageop(n){
         mainimg[8].style.display="none";
          mainimg[9].style.display="none";
          mainimg[10].style.display="none";
+          mainimg[11].style.display="none";
 
 
     
@@ -54,6 +55,7 @@ function imageop(n){
     
             subimg[9].style.border="1px solid #ffffff";
             subimg[10].style.border="1px solid #ffffff";
+       subimg[11].style.border="1px solid #ffffff";
 
     
     
@@ -79,6 +81,7 @@ subimg[7].addEventListener('click',function(){imageop(7);},false);
 subimg[8].addEventListener('click',function(){imageop(8);},false);
 subimg[9].addEventListener('click',function(){imageop(9);},false);
 subimg[10].addEventListener('click',function(){imageop(10);},false);
+subimg[11].addEventListener('click',function(){imageop(10);},false);
 
 
 
@@ -121,6 +124,10 @@ function pmenu(n){
     listm1[17].style.backgroundColor="#ffffff";
     listm1[18].style.backgroundColor="#ffffff";
     listm1[19].style.backgroundColor="#ffffff";
+          listm1[20].style.backgroundColor="#ffffff";
+    listm1[21].style.backgroundColor="#ffffff";
+    listm1[22].style.backgroundColor="#ffffff";
+    listm1[23].style.backgroundColor="#ffffff";
 
 
     
@@ -146,7 +153,10 @@ function pmenu(n){
              menup[16].style.color="#454545";
     menup[17].style.color="#454545";
     menup[18].style.color="#454545";
-    menup[19].style.color="#454545";
+    menup[19].style.color="#454545";      menup[20].style.color="#454545";
+    menup[21].style.color="#454545";
+    menup[22].style.color="#454545";
+    menup[23].style.color="#454545";
     
 
     
@@ -179,6 +189,12 @@ function pmenu(n){
      det1[18].style.display="none";
     
                 det1[19].style.display="none";
+    
+    det1[20].style.display="none";
+     det1[21].style.display="none";
+     det1[22].style.display="none";
+    
+                det1[23].style.display="none";
 
      
     
@@ -214,6 +230,11 @@ listm1[17].addEventListener('click',function(){pmenu(17);},false);
 listm1[18].addEventListener('click',function(){pmenu(18);},false);
 listm1[19].addEventListener('click',function(){pmenu(19);},false);
 
+listm1[20].addEventListener('click',function(){pmenu(20);},false);
+listm1[21].addEventListener('click',function(){pmenu(21);},false);
+listm1[22].addEventListener('click',function(){pmenu(22);},false);
+listm1[23].addEventListener('click',function(){pmenu(23);},false);
+
 
 var lmt= document.getElementsByClassName('lmt');
 var lmtd= document.getElementsByClassName('lmtd');
@@ -227,6 +248,7 @@ function popen(n){
       lmt[2].style.display="none";
           lmt[3].style.display="none";
       lmt[4].style.display="none";
+      lmt[5].style.display="none";
     
 
     
@@ -242,6 +264,7 @@ function pclose(n){
         lmt[2].style.display="flex";
          lmt[3].style.display="flex";
         lmt[4].style.display="flex";
+        lmt[5].style.display="flex";
 
     
 }
@@ -256,6 +279,8 @@ lmt[3].addEventListener('click',function(){popen(3);;
 imageop(9);pmenu(12);},false);
 lmt[4].addEventListener('click',function(){popen(4);;
 imageop(10);pmenu(16);},false);
+lmt[5].addEventListener('click',function(){popen(5);;
+imageop(11);pmenu(20);},false);
 
 
 
@@ -264,3 +289,4 @@ closex[1].addEventListener('click',function(){pclose(1);},false);
 closex[2].addEventListener('click',function(){pclose(2);},false);
 closex[3].addEventListener('click',function(){pclose(3);},false);
 closex[4].addEventListener('click',function(){pclose(4);},false);
+closex[5].addEventListener('click',function(){pclose(5);},false);
