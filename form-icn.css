@@ -229,3 +229,10 @@ img.mny {
     }
     .btn{padding: 7px 28px;}
 }
+.ex_sub{position: relative;left: -30px}
+
+@media only screen and (max-width:500px)
+{
+   .ex_sub{position: relative;left: -10px} 
+    
+}
